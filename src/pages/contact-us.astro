@@ -94,7 +94,8 @@ import '../styles/site.css';
       <!-- Contact form -->
       <div>
         <h2 class="text-2xl font-800 text-[#4B4545] mb-6">Send Me a Message</h2>
-        <form action="https://formspree.io/f/mwvaaojq" method="POST" class="space-y-4">
+        <form action="/api/contact" method="POST" class="space-y-4">
+            <input type="hidden" name="_site_id" value="D1911" /><input type="hidden" name="_business_name" value="Carrs Driving Tuition" /><input type="hidden" name="_business_email" value="carrsdrivingsch@btinternet.com" /><div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="_hp" tabindex="-1" autocomplete="off" /></div>
           <div>
             <label class="block text-sm font-600 text-[#4B4545] mb-1" for="name">Your Name *</label>
             <input
