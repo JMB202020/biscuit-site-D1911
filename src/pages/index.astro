@@ -1,0 +1,315 @@
+---
+import '../styles/site.css';
+const siteName = "Carrs Driving Tuition";
+const phone = "07951 389954";
+const email = "carrsdrivingsch@btinternet.com";
+const address = "41 Conrad Road, Oulton Broad, Lowestoft, Suffolk, NR33 8QD";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrs Driving Tuition – Driving Instructor in Lowestoft</title>
+  <meta name="description" content="Professional driving lessons in Lowestoft, Beccles and surrounding areas. Manual and automatic lessons. ADI and DVSA Fleet Registered Trainer." />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+<body>
+
+  <!-- Preview banner -->
+  <div style="background:white;color:#374151;padding:8px 16px;text-align:center;font-size:13px;position:sticky;top:0;z-index:50;border-bottom:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,0.05)"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap"><span>Preview redesign for <strong style="color:#111827">Carrs Driving Tuition</strong></span><a href="https://biscuitweb.co.uk/activate?id=D1911&amp;name=Carrs%20Driving%20Tuition" style="display:inline-flex;align-items:center;padding:4px 14px;background:#111827;color:white;font-weight:700;font-size:11px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+  <!-- Nav -->
+  <nav class="bg-[#30383C] text-[#EAEBEC] sticky top-[41px] z-40">
+    <div class="max-w-5xl mx-auto px-4 flex items-center justify-between h-16">
+      <a href="/D1911" class="font-display font-800 text-lg text-white leading-tight">
+        Carrs<br/><span class="text-[#FAE6E6] text-sm font-700">Driving Tuition</span>
+      </a>
+      <!-- Desktop nav -->
+      <ul class="hidden md:flex items-center gap-6 text-sm font-600">
+        <li><a href="/D1911" class="text-[#FAE6E6] border-b border-[#FAE6E6] pb-0.5">Home</a></li>
+        <li><a href="/D1911/home-testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
+        <li><a href="/D1911/contact-us" class="hover:text-white transition-colors">Contact Us</a></li>
+        <li><a href="/D1911/sitemap" class="hover:text-white transition-colors">Sitemap</a></li>
+        <li>
+          <a href="/D1911/contact-us" class="bg-[#FAE6E6] text-[#30383C] px-4 py-2 rounded-full font-700 text-xs hover:bg-white transition-colors">
+            Book a Lesson
+          </a>
+        </li>
+      </ul>
+      <!-- Mobile hamburger -->
+      <button id="menu-btn" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu">
+        <span class="block w-6 h-0.5 bg-[#EAEBEC]"></span>
+        <span class="block w-6 h-0.5 bg-[#EAEBEC]"></span>
+        <span class="block w-6 h-0.5 bg-[#EAEBEC]"></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#242B2B] px-4 pb-4">
+      <ul class="flex flex-col gap-3 text-sm pt-3">
+        <li><a href="/D1911" class="text-[#FAE6E6] font-600">Home</a></li>
+        <li><a href="/D1911/home-testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
+        <li><a href="/D1911/contact-us" class="hover:text-white transition-colors">Contact Us</a></li>
+        <li><a href="/D1911/sitemap" class="hover:text-white transition-colors">Sitemap</a></li>
+        <li><a href="/D1911/contact-us" class="block bg-[#FAE6E6] text-[#30383C] px-4 py-2 rounded-full font-700 text-xs text-center mt-1">Book a Lesson</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero: split layout -->
+  <section class="bg-[#30383C] text-white">
+    <div class="max-w-5xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="inline-flex items-center gap-1 bg-[#FAE6E6] text-[#30383C] text-xs font-700 px-3 py-1 rounded-full mb-5">📍 Lowestoft</span>
+        <h1 class="text-4xl md:text-5xl font-800 text-white leading-tight mb-4">Safe Driving<br/>For Life</h1>
+        <p class="text-[#EAEBEC] text-lg mb-2 font-600">Carrs Driving Tuition</p>
+        <p class="text-[#C8B8B8] mb-6 leading-relaxed">Professional driving lessons with John Carr, ADI and DVSA Fleet Registered Trainer. Manual and automatic lessons available in Lowestoft, Beccles and the surrounding area.</p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/D1911/contact-us" class="bg-[#FAE6E6] text-[#30383C] px-6 py-3 rounded-full font-700 text-sm hover:bg-white transition-colors">Book a Lesson</a>
+          <a href="tel:+447951389954" class="border border-[#EAEBEC] text-[#EAEBEC] px-6 py-3 rounded-full font-700 text-sm hover:bg-[#30383C] transition-colors">07951 389954</a>
+        </div>
+      </div>
+      <div class="relative">
+        <img
+          src="/D1911/images/cache-7771302.jpg"
+          alt="Driving lesson car – Carrs Driving Tuition"
+          width="604"
+          height="452"
+          fetchpriority="high"
+          class="rounded-2xl shadow-2xl w-full object-cover"
+        />
+        <div class="absolute -bottom-3 -left-3 bg-[#FAE6E6] text-[#30383C] px-4 py-3 rounded-xl shadow-lg">
+          <p class="text-xs font-700 uppercase tracking-wide">DVSA Approved</p>
+          <p class="text-xs text-[#4B4545]">ADI &amp; Fleet Trainer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="bg-[#FAE6E6] py-6">
+    <div class="max-w-5xl mx-auto px-4">
+      <ul class="flex flex-wrap justify-center gap-6 md:gap-10 text-sm font-600 text-[#4B4545]">
+        <li class="flex items-center gap-2">🎓 ADI Qualified Instructor</li>
+        <li class="flex items-center gap-2">🚗 Manual &amp; Automatic</li>
+        <li class="flex items-center gap-2">⚡ Electric Vehicle Available</li>
+        <li class="flex items-center gap-2">🏢 DVSA Fleet Registered</li>
+        <li class="flex items-center gap-2">📍 Local Lowestoft Knowledge</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Me / Instructor bio -->
+  <section class="py-16 px-4 bg-[#FFFEFE]">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-xs font-700 uppercase tracking-widest text-[#968A8A] mb-2">About Me</p>
+        <h2 class="text-3xl font-800 text-[#4B4545] mb-4">John Carr – Your Local Driving Instructor</h2>
+        <p class="text-[#4B4545] leading-relaxed mb-4">
+          I'm John Carr, a fully qualified ADI and DVSA Fleet Registered Trainer. I've lived around Lowestoft all my life, which means I can give every pupil lots of useful local driving knowledge and tips alongside professional 1-2-1 tuition.
+        </p>
+        <p class="text-[#4B4545] leading-relaxed mb-4">
+          I provide driving tuition for both provisional and full driving licence holders in and around Lowestoft, Beccles and occasionally the Gorleston area.
+        </p>
+        <p class="text-[#4B4545] leading-relaxed mb-4">
+          The nearest practical test centre is right here in Lowestoft. There are also test centres at Norwich and Ipswich.
+        </p>
+        <p class="text-[#4B4545] leading-relaxed">
+          As a DVSA registered Fleet Driver Trainer, I can also carry out Risk Assessments on company drivers. Feel free to contact me with any individual requirements.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <img src="/D1911/images/cache-3324164.jpg" alt="Driving lesson in progress" width="337" height="179" loading="lazy" class="rounded-xl w-full aspect-video object-cover" />
+        <img src="/D1911/images/cache-3324432.jpg" alt="Student behind the wheel" width="333" height="187" loading="lazy" class="rounded-xl w-full aspect-video object-cover" />
+        <div class="col-span-2 bg-[#FAE6E6] rounded-xl p-5">
+          <p class="text-xs font-700 uppercase tracking-wide text-[#968A8A] mb-1">Contact</p>
+          <p class="font-700 text-[#30383C]">07951 389954</p>
+          <p class="font-700 text-[#30383C]">01502 583722 (home)</p>
+          <a href="mailto:carrsdrivingsch@btinternet.com" class="text-sm text-[#4B4545] hover:underline">carrsdrivingsch@btinternet.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lessons Offered -->
+  <section class="py-16 px-4 bg-[#FAE6E6]">
+    <div class="max-w-5xl mx-auto">
+      <p class="text-xs font-700 uppercase tracking-widest text-[#968A8A] mb-2 text-center">What I Offer</p>
+      <h2 class="text-3xl font-800 text-[#4B4545] mb-10 text-center">Driving Lessons Tailored to You</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl p-6 shadow-sm">
+          <div class="text-3xl mb-3">🚗</div>
+          <h3 class="text-lg font-800 text-[#30383C] mb-2">Manual Lessons</h3>
+          <p class="text-sm text-[#4B4545] leading-relaxed">Learn in a Renault Clio Iconic 1.0 petrol with air conditioning. Perfect for those wanting a traditional manual gearbox experience.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm">
+          <div class="text-3xl mb-3">⚡</div>
+          <h3 class="text-lg font-800 text-[#30383C] mb-2">Automatic / Electric</h3>
+          <p class="text-sm text-[#4B4545] leading-relaxed">Learn in a Renault Zoe fully electric automatic with climate control. Great for those who want to skip the gears and focus on the road.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm">
+          <div class="text-3xl mb-3">📅</div>
+          <h3 class="text-lg font-800 text-[#30383C] mb-2">Flexible Scheduling</h3>
+          <p class="text-sm text-[#4B4545] leading-relaxed">Lessons from a minimum of one hour up to intensive day courses of 6 hours per day. Anything from top-up sessions to fast-track passes.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm">
+          <div class="text-3xl mb-3">🎓</div>
+          <h3 class="text-lg font-800 text-[#30383C] mb-2">Provisional Licence Holders</h3>
+          <p class="text-sm text-[#4B4545] leading-relaxed">Whether you've never sat behind the wheel before or just need to polish your skills, I'll guide you every step of the way to your test.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm">
+          <div class="text-3xl mb-3">🔄</div>
+          <h3 class="text-lg font-800 text-[#30383C] mb-2">Refresher Lessons</h3>
+          <p class="text-sm text-[#4B4545] leading-relaxed">Already have a full licence but feeling rusty? Refresher lessons for full licence holders to build confidence and update your skills.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm">
+          <div class="text-3xl mb-3">🏢</div>
+          <h3 class="text-lg font-800 text-[#30383C] mb-2">Fleet Risk Assessments</h3>
+          <p class="text-sm text-[#4B4545] leading-relaxed">As a DVSA registered Fleet Driver Trainer, I can provide Risk Assessments on company drivers to keep your workforce safe on the road.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-16 px-4 bg-[#FFFEFE]">
+    <div class="max-w-5xl mx-auto">
+      <p class="text-xs font-700 uppercase tracking-widest text-[#968A8A] mb-2 text-center">Pricing</p>
+      <h2 class="text-3xl font-800 text-[#4B4545] mb-4 text-center">Flexible Prices to Suit You</h2>
+      <p class="text-center text-[#4B4545] max-w-xl mx-auto mb-10">Prices are flexible according to how many hours are paid for up front. There may also be offers such as "Buy one, get one free" on your first lesson, depending on demand.</p>
+      <div class="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div class="border border-[#C8B8B8] rounded-2xl p-6 text-center bg-[#FEFBFB]">
+          <p class="text-xs font-700 uppercase tracking-wide text-[#968A8A] mb-2">Single Lesson</p>
+          <p class="text-4xl font-800 text-[#30383C] mb-1">Pay as you go</p>
+          <p class="text-sm text-[#4B4545] mb-4">Minimum 1 hour per session</p>
+          <a href="/D1911/contact-us" class="block bg-[#30383C] text-white px-4 py-2 rounded-full text-sm font-700 hover:bg-[#242B2B] transition-colors">Get a Quote</a>
+        </div>
+        <div class="border-2 border-[#30383C] rounded-2xl p-6 text-center bg-white shadow-lg relative">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#30383C] text-white text-xs font-700 px-3 py-1 rounded-full">Popular</span>
+          <p class="text-xs font-700 uppercase tracking-wide text-[#968A8A] mb-2">Block Booking</p>
+          <p class="text-4xl font-800 text-[#30383C] mb-1">Discounted</p>
+          <p class="text-sm text-[#4B4545] mb-4">Pay upfront for multiple hours and save</p>
+          <a href="/D1911/contact-us" class="block bg-[#30383C] text-white px-4 py-2 rounded-full text-sm font-700 hover:bg-[#242B2B] transition-colors">Get a Quote</a>
+        </div>
+        <div class="border border-[#C8B8B8] rounded-2xl p-6 text-center bg-[#FEFBFB]">
+          <p class="text-xs font-700 uppercase tracking-wide text-[#968A8A] mb-2">Intensive Course</p>
+          <p class="text-4xl font-800 text-[#30383C] mb-1">Up to 6hrs/day</p>
+          <p class="text-sm text-[#4B4545] mb-4">Fast-track your test with day courses</p>
+          <a href="/D1911/contact-us" class="block bg-[#30383C] text-white px-4 py-2 rounded-full text-sm font-700 hover:bg-[#242B2B] transition-colors">Get a Quote</a>
+        </div>
+      </div>
+      <p class="text-center text-sm text-[#968A8A] mt-6">Contact me to discuss individual requirements and current pricing.</p>
+    </div>
+  </section>
+
+  <!-- Areas Covered -->
+  <section class="py-16 px-4 bg-[#30383C] text-white">
+    <div class="max-w-5xl mx-auto">
+      <p class="text-xs font-700 uppercase tracking-widest text-[#C8B8B8] mb-2 text-center">Areas Covered</p>
+      <h2 class="text-3xl font-800 text-white mb-8 text-center">Where I Teach</h2>
+      <div class="grid sm:grid-cols-3 gap-4 max-w-2xl mx-auto text-center mb-8">
+        <div class="bg-[#242B2B] rounded-xl px-4 py-5">
+          <p class="text-2xl mb-2">📍</p>
+          <p class="font-700 text-[#EAEBEC]">Lowestoft</p>
+          <p class="text-xs text-[#968A8A] mt-1">Primary area &amp; test centre</p>
+        </div>
+        <div class="bg-[#242B2B] rounded-xl px-4 py-5">
+          <p class="text-2xl mb-2">📍</p>
+          <p class="font-700 text-[#EAEBEC]">Beccles</p>
+          <p class="text-xs text-[#968A8A] mt-1">Regular coverage</p>
+        </div>
+        <div class="bg-[#242B2B] rounded-xl px-4 py-5">
+          <p class="text-2xl mb-2">📍</p>
+          <p class="font-700 text-[#EAEBEC]">Gorleston</p>
+          <p class="text-xs text-[#968A8A] mt-1">Occasional coverage</p>
+        </div>
+      </div>
+      <p class="text-center text-[#C8B8B8] text-sm">Test centres available at <strong class="text-white">Lowestoft</strong>, <strong class="text-white">Norwich</strong> and <strong class="text-white">Ipswich</strong>.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials preview -->
+  <section class="py-16 px-4 bg-[#FFFEFE]">
+    <div class="max-w-5xl mx-auto">
+      <p class="text-xs font-700 uppercase tracking-widest text-[#968A8A] mb-2 text-center">What Pupils Say</p>
+      <h2 class="text-3xl font-800 text-[#4B4545] mb-10 text-center">Happy Drivers</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-[#FAE6E6] rounded-2xl p-6">
+          <p class="text-[#4B4545] italic mb-4 leading-relaxed">"Thank you John! Much appreciated for the lessons and patience, will highly recommend you to people who want to learn to drive!!"</p>
+          <p class="text-sm font-700 text-[#30383C]">Mr J C</p>
+          <p class="text-xs text-[#968A8A]">Lowestoft</p>
+        </div>
+        <div class="bg-[#FAE6E6] rounded-2xl p-6">
+          <p class="text-[#4B4545] italic mb-4 leading-relaxed">"I passed!!!! Thank you John for putting up with my driving!!"</p>
+          <p class="text-sm font-700 text-[#30383C]">Mr E.H</p>
+          <p class="text-xs text-[#968A8A]">Lowestoft</p>
+        </div>
+        <div class="bg-[#FAE6E6] rounded-2xl p-6">
+          <p class="text-[#4B4545] italic mb-4 leading-relaxed">"Thank you for being an amazing teacher and changing my attitude towards driving."</p>
+          <p class="text-sm font-700 text-[#30383C]">Mr J C</p>
+          <p class="text-xs text-[#968A8A]">Blundeston</p>
+        </div>
+        <div class="bg-[#FAE6E6] rounded-2xl p-6">
+          <p class="text-[#4B4545] italic mb-4 leading-relaxed">"Thank you John for all your help and patience. Learning to drive has given me my confidence back. I'm very grateful and will highly recommend you to others."</p>
+          <p class="text-sm font-700 text-[#30383C]">Mrs A M</p>
+          <p class="text-xs text-[#968A8A]">Lowestoft</p>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="/D1911/home-testimonials" class="inline-flex items-center gap-2 text-[#30383C] font-700 text-sm hover:underline">Read all testimonials →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 px-4 bg-[#30383C]">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl font-800 text-white mb-4">Ready to Get Started?</h2>
+      <p class="text-[#C8B8B8] mb-8">Get in touch today to book your first lesson or discuss your requirements. I'm happy to talk through any questions you have.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/D1911/contact-us" class="bg-[#FAE6E6] text-[#30383C] px-8 py-3 rounded-full font-700 hover:bg-white transition-colors">Book a Lesson</a>
+        <a href="tel:+447951389954" class="border border-[#EAEBEC] text-white px-8 py-3 rounded-full font-700 hover:bg-[#242B2B] transition-colors">Call 07951 389954</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#1C1C1D] text-[#FAE6E6] py-10 px-4">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <p class="font-display font-800 text-lg text-white mb-2">Carrs Driving Tuition</p>
+        <p class="text-sm text-[#C8B8B8] leading-relaxed">ADI and DVSA Fleet Registered Trainer based in Lowestoft, Suffolk. Manual and automatic driving lessons.</p>
+      </div>
+      <div>
+        <p class="font-700 text-white text-sm mb-3 uppercase tracking-wide">Contact</p>
+        <ul class="text-sm text-[#C8B8B8] space-y-1">
+          <li>41 Conrad Road, Oulton Broad</li>
+          <li>Lowestoft, Suffolk, NR33 8QD</li>
+          <li><a href="tel:+447951389954" class="hover:text-white">07951 389954</a></li>
+          <li><a href="tel:+441502583722" class="hover:text-white">01502 583722 (home)</a></li>
+          <li><a href="mailto:carrsdrivingsch@btinternet.com" class="hover:text-white">carrsdrivingsch@btinternet.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-700 text-white text-sm mb-3 uppercase tracking-wide">Pages</p>
+        <ul class="text-sm text-[#C8B8B8] space-y-1">
+          <li><a href="/D1911" class="hover:text-white">Home</a></li>
+          <li><a href="/D1911/home-testimonials" class="hover:text-white">Testimonials</a></li>
+          <li><a href="/D1911/contact-us" class="hover:text-white">Contact Us</a></li>
+          <li><a href="/D1911/sitemap" class="hover:text-white">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-[#242B2B] pt-6 text-center text-xs text-[#968A8A]">
+      <p>&copy; 2026 Carrs Driving Tuition. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+  </script>
+
+</body>
+</html>
